@@ -1,0 +1,14 @@
+.search_meal{
+    text-align: center;
+    margin-top: 50px;
+}
+.search_box{
+    width: 350px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
