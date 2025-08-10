@@ -1,9 +1,9 @@
 .search_meal{
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 .search_box{
-    width: 350px;
+    width: 450px;
     padding: 10px;
 }
 .btn{
@@ -11,4 +11,74 @@
     border: none;
     background-color: orange;
     color: white;
+    font-weight: bold;
+}
+.meal_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.card{
+    width: 20%;
+    box-shadow: 4px 4px 8px gray;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.card_img{
+    width: 100%;
+    border-radius: 10px;
+}
+.details_img{
+    width: 300px;
+    border-radius: 10px;
+}
+.more_details{
+    display: none;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+.title_and_price{
+    display: flex;
+    justify-content: space-between;
+}
+.how_to_make_btn{
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+.no_data_found{
+    color: red;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+@media only screen and (min-width:460px) and (max-width:950px){
+   .card{
+        width: 100%;
+    }
+    .more_details{
+        width: 90%;
+        background-color: orange;
+    }
+    .details_img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:951px) and (max-width:1100px){
+   .card{
+        width: 45%;
+    }
+    .more_details{
+        width: 90%;
+        background-color: orange;
+    }
+    .details_img{
+        width: 100%;
+    }
 }
